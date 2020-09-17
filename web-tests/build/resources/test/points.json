@@ -1,0 +1,17 @@
+[
+  {
+    "name": "test_0",
+    "corrections": "RTK RTCM3 MSM",
+    "server": "server_1"
+  },
+  {
+    "name": "test_1",
+    "corrections": "RTK RTCM3 MSM",
+    "server": "server_1"
+  },
+  {
+    "name": "test_2",
+    "corrections": "RTK RTCM3 MSM",
+    "server": "server_1"
+  }
+]

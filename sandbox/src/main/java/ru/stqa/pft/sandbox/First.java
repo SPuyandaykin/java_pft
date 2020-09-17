@@ -5,7 +5,7 @@ import java.io.*;
 public class First {
     public static void main (String[] args){
 
-        try {
+/*        try {
             File file = new File("C:\\Tools\\note.txt");
             //создаем объект FileReader для объекта File
             FileReader fr = new FileReader(file);
@@ -22,9 +22,9 @@ public class First {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
-/*
+
         hello("World");
         hello("user");
         hello("Sergey");
@@ -34,7 +34,7 @@ public class First {
 
         Rectangle r = new Rectangle(4, 6);
         System.out.println("Площадь прямоугольника со сторонами" + r.a + " и " + r.b + " = " + r.area());
- */
+
     }
 
     public static void hello (String somebody){

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.web.tests.FullPointList" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-09T07:20:51" hostname="S-PUYANDAYKIN-N" time="3.26">
+  <properties/>
+  <testcase name="getFullPointList" classname="ru.stqa.pft.web.tests.FullPointList" time="3.26"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

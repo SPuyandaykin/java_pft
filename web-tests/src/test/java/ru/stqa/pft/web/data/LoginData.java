@@ -9,7 +9,8 @@ public class LoginData {
 
     public LoginData(){
         try {
-            File file = new File("C:\\Tools\\note.txt");
+//            File file = new File("C:\\Tools\\note.txt");
+            File file = new File("src/test/resources/notes.txt");
             FileReader fr = new FileReader(file);
             BufferedReader reader = new BufferedReader(fr);
 

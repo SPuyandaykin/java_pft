@@ -9,7 +9,35 @@ public class NavigationHelper extends HelperBase {
         super(wd);
     }
 
-    public void gotoNtripPage(){
-        click(By.cssSelector(".ng-star-inserted:nth-child(2) > .mat-card .mat-caption"));
+    public void gotoHomePage(){
+        if(isElementPresent(By.xpath("//mat-card-title[contains(text(),'Linked devices')]")))
+            return;
+
+        openMenuPanel();
+        clickMenuItem("link__menu_Dashboard");
+
     }
+
+    public void gotoMountpointsPage(){
+        if(isPageHasTitle("Ntrip mountpoints"))
+            return;
+
+        openMenuPanel();
+        clickMenuNode("link__menu_NTRIP");
+        clickMenuItem("link__menu_NtripMountpoints");
+    }
+
+    public void gotoNtripsServerPage(){
+        if(isPageHasTitle("Managed NTRIP server"))
+            return;
+
+        openMenuPanel();
+        clickMenuNode("link__menu_NTRIP");
+        clickMenuItem("link__menu_BaseSources");
+    }
+
+    public void openMenuPanel(){
+        clickButton("button__hamburger");
+    }
+
 }

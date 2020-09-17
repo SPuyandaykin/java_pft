@@ -1,0 +1,17 @@
+<list>
+  <ru.stqa.pft.web.data.PointData>
+    <name>test 0</name>
+    <corrections>rtcm</corrections>
+    <owner>sergey</owner>
+  </ru.stqa.pft.web.data.PointData>
+  <ru.stqa.pft.web.data.PointData>
+    <name>test 1</name>
+    <corrections>rtcm</corrections>
+    <owner>sergey</owner>
+  </ru.stqa.pft.web.data.PointData>
+  <ru.stqa.pft.web.data.PointData>
+    <name>test 2</name>
+    <corrections>rtcm</corrections>
+    <owner>sergey</owner>
+  </ru.stqa.pft.web.data.PointData>
+</list>
